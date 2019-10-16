@@ -1,0 +1,85 @@
+body{
+  background-color: antiquewhite;
+}
+.nav-bar{
+  background-color: aqua;
+  width: 100%;
+}
+
+.header-row{
+  height: 12%;
+  min-height: 80px;
+  background-color: rgb(211, 115, 60);
+  background-image: url("../images/orangeLeaf.png")
+
+}
+
+/* #testImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+  width: auto;
+  background-image: url("orangeLeaf.png");
+  background-size: cover;
+  
+} */
+
+.leaf-image{
+  z-index: 5;
+  height: 4%;
+  width: auto;
+}
+
+.leaf-image:hover{
+  cursor: pointer;
+}
+form div{
+  margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(240,240,240);
+  font-size: 150%;
+}
+
+#tree{
+  border: 10px solid rgb(211, 171, 60);
+  z-index: 1;
+}
+
+#yellow-leaf{
+  z-index: 2;
+  position: absolute;
+
+}
+
+.details{
+  height: 50vh;
+  width: 40vw;
+  background-image: url("../images/yellowLeaf.png");
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  position: absolute;
+  top: 17vh;
+  left: 30vw;
+  color: white;
+}
+
+.about{
+  color: rgb(190, 100, 30);
+  font-size: 150%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+
+
+.leaf-background{
+  background-image: url("../images/orangeLeaf.png");
+}
