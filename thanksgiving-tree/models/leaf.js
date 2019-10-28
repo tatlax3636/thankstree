@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const LeafSchema = new mongoose.Schema({
     author: String,
     content: String,
+    x_location: Number,
+    y_location: Number,
     created_at: Date,
     updated_at: Date
 })
@@ -16,6 +18,7 @@ LeafSchema.pre('save', function(next){
     }
     next()
 });
+
 //turn the schema into a model
 const Leaf = mongoose.model('leaf', LeafSchema);
 
