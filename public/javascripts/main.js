@@ -19,16 +19,17 @@ let max = 65;
 console.log("It updated.")
 //add event listener to addButton...if tree is displayed, hide it and show form. If not, add tree and leaves
 addButton.addEventListener('click', function (e) {
-    if (tree.style.display == "none") {
-        addLeaf(firstName.value, lastName.value, thankfulInput.value);
-        makeRequest();
-        hideForm();
-        tree.style.display = "block"
-    } else {
-        tree.style.display = "none"
-        showForm();
-        clearLeaves();
-    }
+    // if (tree.style.display == "none") {
+    //     addLeaf(firstName.value, lastName.value, thankfulInput.value);
+    //     makeRequest();
+    //     hideForm();
+    //     tree.style.display = "block"
+    // } else {
+    //     tree.style.display = "none"
+    //     showForm();
+    //     clearLeaves();
+    // }
+    console.log('click')
 })
 
 //tree styling
@@ -37,7 +38,7 @@ tree.style.width = "auto";
 
 //hide form to start
 hideForm();
-makeRequest()
+//makeRequest()
 
 
 //show form so that a user can add a new leaf
