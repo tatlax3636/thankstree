@@ -16,7 +16,7 @@ var lastName = document.getElementById("last-name");
 var thankfulInput = document.getElementById("thankful-input");
 let min = 35;
 let max = 65;
-
+console.log("It updated.")
 //add event listener to addButton...if tree is displayed, hide it and show form. If not, add tree and leaves
 addButton.addEventListener('click', function (e) {
     if (tree.style.display == "none") {
