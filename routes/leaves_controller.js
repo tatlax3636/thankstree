@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/thanksgiving-tree');
+//mongoose.connect('mongodb://localhost/thanksgiving-tree');
 
 router.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
